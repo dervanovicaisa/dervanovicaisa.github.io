@@ -11,64 +11,227 @@
 </head>
 
 <body>
-    <main>
-        <section id="home">
-            <nav>
-                <div class="logo">
-                    <img src="/img/livello-logo.png" alt="logo">
+    <div>
+        <main>
+            <!-- hero section -->
+            <section id="home">
+                <nav>
+                    <div class="logo">
+                        <img src="/img/livello-logo.png" alt="logo">
+                    </div>
+                    <div class="menu">
+                        <div>
+                            <ul>
+                                <li><a href="/index.html">Home</a></li>
+                                <li><a href="/pages/products.html">Products</a></li>
+                                <li><a href="/pages/about-us.html">About us</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="/pages/shopping-cart.html"><img src="/img/shopping-cart.png"
+                                    alt="shopping cart"></a>
+                        </div>
+                    </div>
+                </nav>
+                <div class="text-box">
+                    <h2>Our clothing , your comfort</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+                    <a href="#products"><i class="fa fa-chevron-down"></i></a>
                 </div>
-                <div class="menu">
+            </section>
+            <!-- products -->
+            <section id="products">
+                <div id="productCategories">
+                    <div class="container m-auto">
+                        <div class="checkbox">
+                            <label for="men">
+                                <input type="checkbox" class="larger" checked name="men" id="men">
+                                <span class="customCheckbox"><i class="fas fa-check"></i></span>
+                                <p> MEN </p>
+                            </label>
+                            <label for="women">
+                                <input type="checkbox" class="larger" checked name="women" id="women">
+                                <span class="customCheckbox"><i class="fas fa-check"></i></span>
+                                <p>WOMAN</p>
+                            </label>
+                            <label for="children">
+                                <input type="checkbox" class="larger" name="children" id="children">
+                                <span class="customCheckbox"><i class="fas fa-check"></i></span>
+                                <p> CHILDREN </p>
+                            </label>
+                        </div>
+                        <div>
+                            <button id="btnSeeAllProducts">
+                                SEE ALL PRODUCTS
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="container m-auto pt-15 pb-15">
+                    <div id="menProductsSection">
+                        <div class="options">
+                            <div>
+                                <p>MEN</p>
+                            </div>
+                            <div class="w-100 pt-2">
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="sliderIcons">
+                            <p><i class="fas fa-chevron-left"></i> <i class="fas fa-chevron-right"></i> 1/5</p>
+                        </div>
+                        <div id="listOfMenProducts">
+                            <div id="box-1">
+                                <div class="topOptions">
+                                    <div>
+                                        <p>SIZE <i class="fa fa-chevron-down"></i> </p>
+
+                                    </div>
+                                    <div>
+                                        <input type="button" id="colorBlue">
+                                        <input type="button" id="colorYellow">
+                                        <input type="button" id="colorGreen">
+                                    </div>
+                                </div>
+                                <img src="/img/tshir.png" alt="tshirt">
+                                <div class="bottomOptions">
+                                    <p class="gold">T-SHIRT</p>
+                                    <p>5,00€</p>
+                                </div>
+                            </div>
+                            <div id="box-2">
+                                <div class="topOptions">
+                                    <div>
+                                        <p>SIZE <i class="fa fa-chevron-down"></i></p>
+                                    </div>
+                                </div>
+                                <img src="/img/pants.png" alt="pants">
+                                <div class="bottomOptions">
+                                    <p class="gold">PANTS FORCLAZ</p>
+                                    <p>30,00€</p>
+                                </div>
+                            </div>
+                            <div id="box-3">
+                                <div class="topOptions">
+                                    <div>
+                                        <p>SIZE <i class="fa fa-chevron-down"></i></p>
+                                    </div>
+                                </div>
+                                <img src="/img/campBackpack.png" alt="backpack">
+                                <div class="bottomOptions">
+                                    <p class="gold">BACKPACK</p>
+                                    <p>60,00€</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div id="womenProductsSection">
+                        <div class="options">
+                            <div class="w-100 pt-2">
+                                <hr>
+                            </div>
+                            <div>
+                                <p>WOMEN</p>
+                            </div>
+                        </div>
+                        <div class="sliderIcons">
+                            <p><i class="fas fa-chevron-left"></i> <i class="fas fa-chevron-right"></i> 1/5</p>
+                        </div>
+                        <div id="listOfWomenProducts">
+                            <div id="box-1">
+                                <div class="topOptions">
+                                    <div>
+                                        <p>SIZE <i class="fa fa-chevron-down"></i></p>
+                                    </div>
+                                </div>
+                                <img src="/img/jacket.png" alt="jacket">
+                                <div class="bottomOptions">
+                                    <p class="gold">GIACKET</p>
+                                    <p>60,00€</p>
+                                </div>
+                            </div>
+                            <div id="box-2">
+                                <div class="topOptions">
+                                    <div>
+                                        <p>SIZE <i class="fa fa-chevron-down"></i></p>
+                                    </div>
+                                </div>
+                                <img src="/img/shoes.png" alt="shoes">
+                                <div class="bottomOptions">
+                                    <p class="gold">TREKKING SHOES</p>
+                                    <p>80,00€</p>
+                                </div>
+                            </div>
+                            <div id="box-3">
+                                <div class="topOptions">
+                                    <div>
+                                        <p>SIZE <i class="fa fa-chevron-down"></i></p>
+
+                                    </div>
+                                    <div>
+                                        <input type="button" id="colorPink">
+                                        <input type="button" id="colorWhite">
+                                    </div>
+                                </div>
+                                <img src="/img/womanTshirt.png" alt="woman tshirt">
+                                <div class="bottomOptions">
+                                    <p class="gold">T-SHIRT</p>
+                                    <p>20,00€</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- about us -->
+            <section id="about-us">
+                <fieldset class="w-50 m-auto">
+                    <legend class="text-center">
+                        <h2>ABOUT US </h2>
+                    </legend>
+                    <div class="m-auto">
+                        <p class="p-5 w-30 m-auto text-center">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation
+                        </p>
+                    </div>
+                </fieldset>
+            </section>
+        </main>
+        <!-- footer -->
+        <footer id="footer">
+            <div id="footerSectionTop">
+                <i class="fa fa-twitter"></i>
+                <q>E-commerce psd theme available</q>
+            </div>
+            <div id="footerSectionMain">
+                <div id="footerMainLeft">
+                    <h2>Trekking</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut
+                        aliquip ex ea commodo consequat.</p>
+                </div>
+                <div id="footerMainRigth">
                     <div>
                         <ul>
-                            <li><a href="/index.html">Home</a></li>
-                            <li><a href="/pages/products.html">Products</a></li>
-                            <li><a href="/pages/about-us.html">About us</a></li>
+                            <li><a href="/index.html">Home |</a></li>
+                            <li><a href="/pages/products.html">Products |</a></li>
+                            <li><a href="/pages/about-us.html">About us |</a></li>
                         </ul>
                     </div>
-                    <div>
-                        <a href="/pages/shopping-cart.html"><img src="/img/shopping-cart.png" alt="shopping cart"></a>
+                    <div class="text-right">
+                        <p> Design by gianluca cosetta </p>
                     </div>
                 </div>
-            </nav>
-            <div class="text-box">
-                <h2>Our clothing , your comfort</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-                <a href="#products"><i class="fa fa-chevron-down"></i></a>
             </div>
-        </section>
-        <section id="products">
-
-        </section>
-        <section id="about-us">
-
-        </section>
-    </main>
-    <footer id="footer">
-        <div>
-            <i class="fa fa-twitter"></i>
-            <q>E-commerce psd theme available</q>
-        </div>
-        <div>
-            <div>
-                <h2>Trekking</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat.</p>
-            </div>
-            <div>
-                <div>
-                    <ul>
-                        <li><a href="/index.html">Home</a></li>
-                        <li><a href="/pages/products.html">Products</a></li>
-                        <li><a href="/pages/about-us.html">About us</a></li>
-                    </ul>
-                </div>
-                <div>
-                    Design by gianluca cosetta
-                </div>
-            </div>
-        </div>
-    </footer>
+        </footer>
+    </div>
     <!-- fontawesome icons -->
     <script src="https://kit.fontawesome.com/b55e23319b.js" crossorigin="anonymous"></script>
 </body>
