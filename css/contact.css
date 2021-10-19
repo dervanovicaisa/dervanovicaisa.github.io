@@ -1,4 +1,8 @@
 
+nav{
+  background-color: #424242;
+}
+
 /*---------------------------------------------*/
 
 input {
@@ -31,7 +35,6 @@ input {
   [ Contact - Area]*/
   
   .container-contact {
-    width: 100%;  
     min-height: 70vh;
     display: -webkit-box;
     display: -webkit-flex;
@@ -41,7 +44,7 @@ input {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 15px;
+    padding: 55px;
     position: relative;
     background-color: transparent;
   }

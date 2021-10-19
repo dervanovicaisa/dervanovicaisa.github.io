@@ -1,9 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Nunito', sans-serif;
-}
 
 :root {
     --darker-wine: #424242;
@@ -17,18 +12,29 @@
     --pink: #D3A7AC;
     --white: #FFFFFF;
     --dark-white: #F5F6F7;
-    --font-family: QuicksandBold-Regular, AdobeInvisFont, MyriadPro-Regular;
+    --font-family: 'Nunito', sans-serif;
 }
-body{
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+}
+
+body {
     margin: 0;
     padding: 0;
 }
+
 .text-right {
     text-align: right;
 }
 
 .text-center {
     text-align: center;
+}
+.text-justify{
+    text-align: justify;
 }
 
 .w-100 {
@@ -75,7 +81,7 @@ body{
     color: var(--gold);
 }
 
-input[type=checkbox]{
+input[type=checkbox] {
     margin-left: 10px;
     margin-right: 4px;
     width: 16px;
@@ -83,13 +89,15 @@ input[type=checkbox]{
     padding: 2px;
 }
 
-input[type=checkbox]:checked{
-   display: none
+input[type=checkbox]:checked {
+    display: none
 }
+
 .customCheckbox {
     display: none;
 }
-input[type=checkbox]:checked ~ .customCheckbox{
+
+input[type=checkbox]:checked~.customCheckbox {
     margin-left: 10px;
     margin-right: 4px;
     border: 1px solid var(--gold);
@@ -106,8 +114,8 @@ input[type=checkbox]:checked ~ .customCheckbox{
 
 #home nav {
     display: flex;
-    width: 94vw;
     justify-content: space-between;
+    align-items: center;
     padding: 30px;
 }
 
@@ -133,7 +141,6 @@ input[type=checkbox]:checked ~ .customCheckbox{
 /* footer */
 #footer {
     width: fit-content;
-    height: 40vh;
 }
 
 #footerSectionTop {
