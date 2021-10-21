@@ -146,12 +146,14 @@ nav {
 
   input.input {
     height: 62px;
+    max-width: 30vw;
     padding: 0 15px 0 15px;
   }
 
 
   textarea.input {
     min-height: 169px;
+    max-width: 30vw;
     padding: 19px 15px 0 15px;
   }
 
@@ -490,12 +492,14 @@ textarea:-ms-input-placeholder {
 
 input.input {
   height: 62px;
+  max-width: 30vw;
   padding: 0 15px 0 15px;
 }
 
 
 textarea.input {
   min-height: 169px;
+  max-width: 30vw;
   padding: 19px 15px 0 15px;
 }
 
@@ -834,12 +838,14 @@ section#post-28 {
 
   input.input {
     height: 62px;
+    max-width: 30vw;
     padding: 0 15px 0 15px;
   }
 
 
   textarea.input {
     min-height: 169px;
+    max-width: 30vw;
     padding: 19px 15px 0 15px;
   }
 
