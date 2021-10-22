@@ -64,7 +64,8 @@
     }
 
     #products #btnSeeAllProducts {
-        background-color: var(--gold);
+        background: var(--gold);
+        background: radial-gradient(circle, var(--gold) 0%, rgba(170,155,119,0.6755077030812324) 100%);
         color: var(--white);
         outline: none;
         border: none;
@@ -254,7 +255,8 @@
     }
 
     #products #btnSeeAllProducts {
-        background-color: var(--gold);
+        background: var(--gold);
+        background: radial-gradient(circle, var(--gold) 0%, rgba(170,155,119,0.6755077030812324) 100%);
         color: var(--white);
         outline: none;
         border: none;
@@ -452,7 +454,8 @@
     }
 
     #products #btnSeeAllProducts {
-        background-color: var(--gold);
+        background: var(--gold);
+        background: radial-gradient(circle, var(--gold) 0%, rgba(170,155,119,0.6755077030812324) 100%);
         color: var(--white);
         outline: none;
         border: none;
